@@ -40,9 +40,6 @@ post_data = {
 # 这个入口仍然有效
 login_url = 'https://passport.weibo.cn/sso/login'
 
-
-
-
 def login(username , password):
     session = requests.session()
     post_data['username'] = username
